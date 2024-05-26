@@ -1,0 +1,80 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "binutils@latest": {
+      "last_modified": "2024-02-24T23:06:34Z",
+      "resolved": "github:NixOS/nixpkgs/9a9dae8f6319600fa9aebde37f340975cab4b8c0#binutils",
+      "source": "devbox-search",
+      "version": "2.40",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/j0w1bxkg0lyw39dwsh3zpqzac2l05dkp-binutils-wrapper-2.40"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/v5252q77fafyra57c8rzq2svlhawd14f-binutils-wrapper-2.40"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/rq1x3asclyrb8k0g6g03hacp3hyqrgdy-binutils-wrapper-2.40"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/cc92grinhsyp2mq5sxlmz06z68gz1h98-binutils-wrapper-2.40"
+        }
+      }
+    },
+    "jdk@latest": {
+      "last_modified": "2024-02-24T23:06:34Z",
+      "resolved": "github:NixOS/nixpkgs/9a9dae8f6319600fa9aebde37f340975cab4b8c0#jdk8",
+      "source": "devbox-search",
+      "version": "8u362-ga",
+      "systems": {
+        "aarch64-linux": {
+          "store_path": "/nix/store/x8p7rp0xnjyjy3wd0by0dn73vxvax1pv-openjdk-8u362-ga"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/0bm78g6hhcsyg00wqc6ijp3cyrqd6qdg-openjdk-8u362-ga"
+        }
+      }
+    },
+    "mariadb@latest": {
+      "last_modified": "2024-02-24T23:06:34Z",
+      "plugin_version": "0.0.4",
+      "resolved": "github:NixOS/nixpkgs/9a9dae8f6319600fa9aebde37f340975cab4b8c0#mariadb_110",
+      "source": "devbox-search",
+      "version": "11.0.4",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/ag2mqf4v44bfh9qlsj4f3qb0v0kl3wda-mariadb-server-11.0.4"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/9zx56j3cr17jr4n8w43mbidaybdqqjif-mariadb-server-11.0.4"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/gilf5mbwr9k4nwfqrdy9yczfbcv8mhgv-mariadb-server-11.0.4"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/s1f6m2wrl0yhgcvz842bwyazk9wqigfk-mariadb-server-11.0.4"
+        }
+      }
+    },
+    "maven@latest": {
+      "last_modified": "2024-02-24T23:06:34Z",
+      "resolved": "github:NixOS/nixpkgs/9a9dae8f6319600fa9aebde37f340975cab4b8c0#maven",
+      "source": "devbox-search",
+      "version": "3.9.6",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/6bjm8iimm7cxfbynbzqabx78df3axzch-apache-maven-3.9.6"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/3aic7v3i6zp9sacx3d7ygj19swwpdw6r-apache-maven-3.9.6"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/8x001xvk2f6fl9ydxxxl1inc1glf7nlf-apache-maven-3.9.6"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/pvr6qly5wijpkcz352ldmrwnsbpp8j3s-apache-maven-3.9.6"
+        }
+      }
+    }
+  }
+}
